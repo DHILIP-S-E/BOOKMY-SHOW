@@ -23,9 +23,7 @@ async function fetchMovies() {
                 movieCardsContainer.appendChild(card);
             });
         }
-    } catch (error) {
-        console.error(error);
-    }
+   
 }
 
 fetchMovies();
